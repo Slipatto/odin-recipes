@@ -5,14 +5,50 @@ background-color: rgb(78, 76, 76);
 text-align: center;
 }
 
-h1, h2, h3, li {
-    color: rgb(150, 115, 10);
+h1, h2, h3 {
+    color: rgb(10, 10, 0);
+    background-color: rgb(150, 115, 10);
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
 }
 
+li {
+    color: rgb(10, 10, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px 500px;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+
+p {
+    margin:10px 500px;
+
+}
+
+div {
+    padding: 20px;
+    margin: 0px 500px;
+    text-align: center;
+
+}
+
+img {
+    margin:20px;
+}
+
+.titleblock {
+    background-color:rgb(150, 115, 10);
+    border-color: aliceblue;
+    border-radius: 20px;
+}
+
+
 a {
-color: cornflowerblue;
+    background-color: rgb(150, 115, 10);
+    color:black;
+    padding: 20px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 .list, p {
